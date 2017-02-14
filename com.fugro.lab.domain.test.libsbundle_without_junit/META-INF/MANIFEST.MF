@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Test
+Bundle-SymbolicName: com.fugro.lab.domain.test.libsbundle_without_junit
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: FUGRO
+Fragment-Host: com.fugro.lab.domain
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: com.fugro.lab.domain.thirdparty.libsbundle_without_junit;bundle-version="1.0.0",
+ org.junit

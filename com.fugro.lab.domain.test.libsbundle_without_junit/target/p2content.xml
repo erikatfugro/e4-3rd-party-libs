@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='com.fugro.lab.domain.test.libsbundle_without_junit' version='1.0.0.201702141335' singleton='false'>
+    <update id='com.fugro.lab.domain.test.libsbundle_without_junit' range='[0.0.0,1.0.0.201702141335)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='Test'/>
+      <property name='org.eclipse.equinox.p2.provider' value='FUGRO'/>
+      <property name='maven-groupId' value='com.fugro.lab.domain'/>
+      <property name='maven-artifactId' value='com.fugro.lab.domain.test.libsbundle_without_junit'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+    </properties>
+    <provides size='4'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='com.fugro.lab.domain.test.libsbundle_without_junit' version='1.0.0.201702141335'/>
+      <provided namespace='osgi.bundle' name='com.fugro.lab.domain.test.libsbundle_without_junit' version='1.0.0.201702141335'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      <provided namespace='osgi.fragment' name='com.fugro.lab.domain' version='1.0.0.201702141335'/>
+    </provides>
+    <requires size='3'>
+      <required namespace='osgi.bundle' name='com.fugro.lab.domain' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='com.fugro.lab.domain.thirdparty.libsbundle_without_junit' range='1.0.0'/>
+      <required namespace='osgi.bundle' name='org.junit' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='com.fugro.lab.domain.test.libsbundle_without_junit' version='1.0.0.201702141335'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: com.fugro.lab.domain.test.libsbundle_without_junit&#xA;Bundle-Version: 1.0.0.201702141335&#xA;Fragment-Host: com.fugro.lab.domain&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='com.fugro.lab.domain.test.libsbundle_without_junit.source' version='1.0.0.201702141335' singleton='false'>
+    <update id='com.fugro.lab.domain.test.libsbundle_without_junit.source' range='[0.0.0,1.0.0.201702141335)' severity='0'/>
+    <properties size='9'>
+      <property name='df_LT.bundleVendor' value='FUGRO'/>
+      <property name='df_LT.bundleName' value='Test Source'/>
+      <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+      <property name='maven-groupId' value='com.fugro.lab.domain'/>
+      <property name='maven-artifactId' value='com.fugro.lab.domain.test.libsbundle_without_junit'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+    </properties>
+    <provides size='4'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='com.fugro.lab.domain.test.libsbundle_without_junit.source' version='1.0.0.201702141335'/>
+      <provided namespace='osgi.bundle' name='com.fugro.lab.domain.test.libsbundle_without_junit.source' version='1.0.0.201702141335'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='com.fugro.lab.domain.test.libsbundle_without_junit.source' version='1.0.0.201702141335'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: com.fugro.lab.domain.test.libsbundle_without_junit.source&#xA;Bundle-Version: 1.0.0.201702141335&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

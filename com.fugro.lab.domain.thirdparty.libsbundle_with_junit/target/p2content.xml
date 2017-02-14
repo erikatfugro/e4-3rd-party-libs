@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='com.fugro.lab.domain.thirdparty.libsbundle_with_junit' version='1.0.0.201702141335' singleton='false'>
+    <update id='com.fugro.lab.domain.thirdparty.libsbundle_with_junit' range='[0.0.0,1.0.0.201702141335)' severity='0'/>
+    <properties size='3'>
+      <property name='maven-groupId' value='com.fugro.lab.domain'/>
+      <property name='maven-artifactId' value='com.fugro.lab.domain.thirdparty.libsbundle_with_junit'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+    </properties>
+    <provides size='41'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='com.fugro.lab.domain.thirdparty.libsbundle_with_junit' version='1.0.0.201702141335'/>
+      <provided namespace='osgi.bundle' name='com.fugro.lab.domain.thirdparty.libsbundle_with_junit' version='1.0.0.201702141335'/>
+      <provided namespace='java.package' name='org.assertj.core.api' version='0.0.0'/>
+      <provided namespace='java.package' name='org.assertj.core.api.exception' version='0.0.0'/>
+      <provided namespace='java.package' name='org.assertj.core.api.filter' version='0.0.0'/>
+      <provided namespace='java.package' name='org.assertj.core.api.iterable' version='0.0.0'/>
+      <provided namespace='java.package' name='org.assertj.core.condition' version='0.0.0'/>
+      <provided namespace='java.package' name='org.assertj.core.data' version='0.0.0'/>
+      <provided namespace='java.package' name='org.assertj.core.description' version='0.0.0'/>
+      <provided namespace='java.package' name='org.assertj.core.error' version='0.0.0'/>
+      <provided namespace='java.package' name='org.assertj.core.error.future' version='0.0.0'/>
+      <provided namespace='java.package' name='org.assertj.core.error.uri' version='0.0.0'/>
+      <provided namespace='java.package' name='org.assertj.core.extractor' version='0.0.0'/>
+      <provided namespace='java.package' name='org.assertj.core.groups' version='0.0.0'/>
+      <provided namespace='java.package' name='org.assertj.core.presentation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.assertj.core.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.assertj.core.util.diff' version='0.0.0'/>
+      <provided namespace='java.package' name='org.assertj.core.util.diff.myers' version='0.0.0'/>
+      <provided namespace='java.package' name='org.assertj.core.util.introspection' version='0.0.0'/>
+      <provided namespace='java.package' name='org.assertj.core.util.xml' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.configuration' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.exceptions' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.exceptions.base' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.exceptions.misusing' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.exceptions.stacktrace' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.exceptions.verification' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.exceptions.verification.junit' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.invocation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.junit' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.listeners' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.mock' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.plugins' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.runners' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.stubbing' version='0.0.0'/>
+      <provided namespace='java.package' name='org.mockito.verification' version='0.0.0'/>
+      <provided namespace='java.package' name='org.powermock.api.mockito' version='0.0.0'/>
+      <provided namespace='java.package' name='org.powermock.api.mockito.expectation' version='0.0.0'/>
+      <provided namespace='java.package' name='org.powermock.core.classloader.annotations' version='0.0.0'/>
+      <provided namespace='java.package' name='org.powermock.modules.junit4' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='com.fugro.lab.domain.thirdparty.libsbundle_with_junit' version='1.0.0.201702141335'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: com.fugro.lab.domain.thirdparty.libsbundle_with_junit&#xA;Bundle-Version: 1.0.0.201702141335&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.fugro.lab.domain;singleton:=true
+Export-Package: com.fugro.lab.domain.util
+Bundle-Name: Domain
+Bundle-Version: 1.0.0.201702141335
+Bundle-ClassPath: .
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: FUGRO
+

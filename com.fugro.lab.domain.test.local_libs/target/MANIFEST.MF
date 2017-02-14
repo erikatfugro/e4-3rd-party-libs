@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.fugro.lab.domain.test.local_libs
+Bundle-Name: Test
+Bundle-Version: 1.0.0.201702141335
+Bundle-ClassPath: libs/assertj-core-3.3.0-sources.jar,libs/assertj-cor
+ e-3.3.0.jar,libs/hamcrest-core-1.3-sources.jar,libs/hamcrest-core-1.3
+ .jar,libs/javassist-3.19.0-GA-sources.jar,libs/javassist-3.19.0-GA.ja
+ r,libs/mockito-all-1.10.19-sources.jar,libs/mockito-all-1.10.19.jar,l
+ ibs/mockito-core-2.0.5-beta-sources.jar,libs/mockito-core-2.0.5-beta.
+ jar,libs/objenesis-2.1-sources.jar,libs/objenesis-2.1.jar,libs/powerm
+ ock-api-mockito-1.6.2-sources.jar,libs/powermock-api-mockito-1.6.2.ja
+ r,libs/powermock-api-support-1.6.2-sources.jar,libs/powermock-api-sup
+ port-1.6.2.jar,libs/powermock-core-1.6.2-sources.jar,libs/powermock-c
+ ore-1.6.2.jar,libs/powermock-module-junit4-1.6.2-sources.jar,libs/pow
+ ermock-module-junit4-1.6.2.jar,libs/powermock-module-junit4-common-1.
+ 6.2-sources.jar,libs/powermock-module-junit4-common-1.6.2.jar,libs/po
+ wermock-reflect-1.6.2-sources.jar,libs/powermock-reflect-1.6.2.jar,.
+Require-Bundle: org.junit
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: FUGRO
+Fragment-Host: com.fugro.lab.domain
+
